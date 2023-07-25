@@ -29,7 +29,7 @@
 
       <!-- Nav section start here -->
 
-      <section class="flex max-w-screen-xl mx-28 px-8 md:px-16 lg:24 py-5 my-10 bg-red-500 rounded-full" >
+      <section class="flex max-w-screen-xl mx-28 px-8 md:px-16 lg:24 py-5 my-10 mb-[-100px] bg-red-500 rounded-full" >
         <div class="navbar">
           <div class="navbar-start ">
             <div class="dropdown">
@@ -68,17 +68,51 @@
         </div>
     </section>     
       <!-- Banner section -->
-      <section class="flex max-w-screen-xl mx-16 px-8 md:px-16 lg:24 py-5 my-10">
-        <div class="hero min-h-screen" style="background-image: url(https://daisyui.com/images/stock/photo-1507358522600-9f71e620c44e.jpg);">
-          <div class="hero-overlay bg-opacity-60"></div>
+      <section class="flex max-w-screen-xl mx-14 px-8 md:px-16 lg:24 py-5 my-10">
+        <div class="hero min-h-screen " > <!--</div>style="background-image: url( ./images/banner1.png);">
+          <!-- slider start here -->
+          <div class="carousel w-full">
+  <div id="slide1" class="carousel-item relative w-full">
+    <img src="/images/banner1.png" class="w-full" />
+    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+      <a href="#slide4" class="btn btn-circle">❮</a> 
+      <a href="#slide2" class="btn btn-circle">❯</a>
+    </div>
+  </div> 
+  <div id="slide2" class="carousel-item relative w-full">
+    <img src="/images/banner2.png" class="w-full" />
+    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+      <a href="#slide1" class="btn btn-circle">❮</a> 
+      <a href="#slide3" class="btn btn-circle">❯</a>
+    </div>
+  </div> 
+  <div id="slide3" class="carousel-item relative w-full">
+    <img src="/images/banner3.png" class="w-full" />
+    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+      <a href="#slide2" class="btn btn-circle">❮</a> 
+      <a href="#slide4" class="btn btn-circle">❯</a>
+    </div>
+  </div> 
+  <div id="slide4" class="carousel-item relative w-full">
+    <img src="/images/banner4.png" class="w-full" />
+    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+      <a href="#slide3" class="btn btn-circle">❮</a> 
+      <a href="#slide1" class="btn btn-circle">❯</a>
+    </div>
+  </div>
+</div>
+          <!-- slider end here -->
+
+          <div class=""></div>
           <div class="hero-content text-center text-neutral-content">
             <div class="max-w-md">
-              <h1 class="mb-5 text-5xl font-bold">Hello there</h1>
-              <p class="mb-5">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
-              <button class="btn btn-primary">Get Started</button>
+              <h1 class="mb-[120px] text-5xl font-bold text-white">Exotic tastes at your <br> doorstep</h1>
+              <p class="mb-5">We supply highly quality organic products</p>
+              <button class="btn btn-error">Shop Now</button>
             </div>
           </div>
         </div>
+        
       </section>
 
     </header>
