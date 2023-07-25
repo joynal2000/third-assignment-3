@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>third-assignment-3</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.4.0/dist/full.css" rel="stylesheet" type="text/css" />
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Open+Sans:wght@400;700;800&family=Poppins:wght@400;500;600;700;800&display=swap');
+      
+    </style>
+<!-- font-family: 'Lato', sans-serif; -->
+  <script src="https://cdn.tailwindcss.com"></script>
+<script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+          }
+        }
+      }
+    }
+  </script>
+
+</head>
+<body >
+    <header>
+
+      <!-- Nav section start here -->
+
+      <section class="flex max-w-screen-xl mx-28 px-8 md:px-16 lg:24 py-5 my-10 bg-red-500 rounded-full" >
+        <div class="navbar">
+          <div class="navbar-start ">
+            <div class="dropdown">
+            <!--  <label tabindex="0" class="btn btn-ghost lg:hidden">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+              </label> -->
+             <!-- <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                 <li><a>Home</a></li>
+                <li><a>About Us</a></li>
+                <li><a>Shop</a></li>
+                <li><a>All Fruits</a></li>  -->
+              </ul>
+            </div>
+            <ul class="flex space-x-5 text-xs text-white">
+                <li><a>Home</a></li>
+                <li><a>About Us</a></li>           
+                <li><a>Shop</a></li>
+                <li><a>All Fruits</a></li>
+              </ul>
+          </div>
+          <div class="navbar-center hidden lg:flex">
+            <!-- <ul class="menu menu-horizontal px-1"> -->
+             <!--  <a class="btn btn-ghost normal-case text-xl">daisyUI</a> 
+              <a class="btn btn-ghost normal-case text-xl">daisyUI</a>
+            </ul> -->
+            <a class="flex normal-case text-2xl text-white " href=""><img class="w-10 h-12" src="./images/logo.png" alt="This is Logo image">Fruit Burst</a>
+            
+          </div>
+          <div class="navbar-end ">
+            <button class="w-48 h-8 bg-white rounded-full">
+              Shearch Here
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+           
+          </div>
+        </div>
+    </section>     
+      <!-- Banner section -->
+      <section class="flex max-w-screen-xl mx-16 px-8 md:px-16 lg:24 py-5 my-10">
+        <div class="hero min-h-screen" style="background-image: url(https://daisyui.com/images/stock/photo-1507358522600-9f71e620c44e.jpg);">
+          <div class="hero-overlay bg-opacity-60"></div>
+          <div class="hero-content text-center text-neutral-content">
+            <div class="max-w-md">
+              <h1 class="mb-5 text-5xl font-bold">Hello there</h1>
+              <p class="mb-5">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
+              <button class="btn btn-primary">Get Started</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </header>
+    
+    <!-- main section start here -->
+    <main>
+    
+    </main>
+
+    <!-- footer section start here -->
+    <footer>
+
+    </footer>
+</body>
+</html>
